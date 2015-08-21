@@ -1,0 +1,405 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ko" xml:lang="ko">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="검색될키워드입력" />
+
+<!--[if lt IE 9]>
+<script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE9.js"></script>
+<![endif]-->
+
+<title>Ji hun Lee's Portfolio</title>
+
+<link href="file:///Macintosh HD/Users/jihunlee0523/Desktop/Portfolio/ver2_web2/samplepage/css/lightbox.css" rel="stylesheet" />
+
+
+<link href="css/lightbox.css" rel="stylesheet" />
+<link rel="shortcut icon" href="favicon.ico" >
+
+
+<style type="text/css">
+body{margin:0px; 
+background:#e8eaec;
+}
+@font-face{
+	font-family:century; src:url(TR%20Century%20Gothic.ttf);}
+ul,li{padding:0px; margin:0px;}
+img{border:none}
+
+div#wrap{width:1000px; position:absolute; left:50%; top:0px; margin-left:-500px; background:#fff;}
+div#topheader{width:1000px; Position:relative; background:url(header-01.jpg); height:150px;}
+	div#logo{width:80px; height:80px; position:relative; left:50%; margin-left:-48px; top:20px;}
+
+div#bodywrap{width:1000px; position:absolute; top:150px; background:#FFF; display:inline; padding-top:10px;}
+div#left{width:200px; float:left;}
+	div#portfolio{width:190px; height:35px; float:left; background:#B60C02;}
+	div#portfolio:hover{background:#999;}
+	ul#navi{width:200px; float:left;}
+	ul#navi li{width:170px; height:40px; float:left; list-style:none;}
+	li.link1{width:170px; height:40px; float:left; }
+	li.link2{width:170px; height:40px; float:left; }
+	li.link3{width:170px; height:40px; float:left; }
+	li.link4{width:170px; height:40px; float:left; }
+	li.link5{width:170px; height:40px; float:left; }
+	li.link6{width:170px; height:40px; float:left; }
+	div#about{width:190px; height:35px; float:left; background:#B60C02;}
+	div#about:hover{background:#999;}
+	p.leftnavitext{font:normal 20px/0px century; color:#fff; text-align:right;float:left;width:160px; margin-top:17px;}	
+	p.navi {font:normal 15px/5px century; color:#666; opacity:0.4; text-align:right;}	
+	p.navi:hover {opacity: 1;filter: alpha(opacity=100);}
+	p.navibold {font:bold 15px/5px century;color:#B60C02; opacity:1;text-align:right;}	
+	p.footnote{width:100%;font:normal 13px century; color:#FFF; opacity:0.8; text-align:center; padding-top:10px; }
+
+div#right{width:800px; float:left; height:800px; overflow-y: scroll; overflow-x: hidden; position:relative;}	
+	div#moneypic{width:800px; height:350px; float:left;}
+	div#discription1{width:200px; float:left; }
+	p.bigtitle{font:normal 35px/0px century; color:#B60C02;text-align:center; width:100%; float:left;}
+	p.title{font:normal 15px/0px century; color:#B60C02; text-align:center; width:100%;float:left; height:12px;}
+	p.smalltitle{font:normal 25px/25px century; color:#B60C02;text-align:center; width:800px; float:left;}
+	p.blue{font:normal 20px/0px century; color:#B60C02; text-align:left; padding-left:20px; padding-top:5px;float:left;}
+	p.blue1{font:normal 20px/0px century; color:#B60C02; text-align:left; padding-left:20px; padding-top:5px;float:left; padding-top:25px;}
+	p.white{font:normal 13px/14px century; color:#999; width:750px;text-align:justify;float:left;}
+	
+	div#demo{width:720px; font:normal 20px/0px century; color:#333; padding-left:30px; text-align:center; float:left; margin-bottom:10px; margin-top:30px;}
+	div#summary{width:720px; font:normal 20px/0px century; color:#333; padding-left:30px; text-align:center; float:left; margin-bottom:10px;}
+	div#process{width:500px; height:140px; margin-left:150px;float:left;margin-top:50px;}
+	div#p1{width:800px; height:46px; float:left; margin-top:30px;}
+	div#p1 img{width:50px; height:46px; float:left; margin-left:10px;}
+	div#interview{width:720px; height:150px; margin-left:20px;margin-top:10px;float:left; margin-bottom:100px;border-radius:10px ; overflow:hidden; border:solid 1px #B60C02;}
+	div#p2{width:800px; height:105px; float:left;}
+	div#p2 img{width:150px; height:105px; float:left; margin-left:10px;}
+
+	div#ideation{width:720px; height:150px; margin-left:20px;float:left; margin-bottom:100px; margin-top:30px;border-radius:10px ; overflow:hidden; border:solid 1px #B60C02;}	
+	div#p3{width:800px; height:100px; float:left;}
+	div#p3 img{width:93px; height:100px; float:left; margin-left:10px;}
+	div#wireframe{width:720px; height:350px; margin-left:20px; margin-top:10px;float:left;margin-bottom:60px;}
+	div#gui{width:720px; font:normal 20px/0px century; color:#333; padding-left:30px; text-align:center; float:left; margin-bottom:10px;}		
+	div#footer{width:100%; height:70px; margin-top:20px; background:#333; float:left;}
+	iframe{width:560px; height:315px; position: relative; margin-bottom:30px; margin: 0 auto;}
+	
+#cssSlider {
+   width: 600px;
+   height: 417px;
+   overflow: hidden;
+   position: relative;
+   margin-top:30px;
+   margin: 0 auto;
+}
+#cssSlider figure {
+   width: 600px;
+   height: 417px;
+   margin: 0;
+   position: absolute;
+   top: 0;
+   left: -600px;
+   z-index: 1;
+   transition: all linear 0.5s;
+   -o-transition: all linear 0.5s;
+   -moz-transition: all linear 0.5s;
+   -webkit-transition: all linear 0.5s;
+}
+#cssSlider figure:target {
+   left: 0;
+}
+#cssSlider figure:first-child {
+   left: 0;
+}
+#cssSlider figure figcaption {
+   position: absolute;
+   bottom: 0;
+   right: 600px;
+   z-index: 2;
+   color: #fff;
+   padding: 10px 20px;
+   width: 570px;
+   background: #000;
+   transition: all linear 1s;
+   -o-transition: all linear 1s;
+   -moz-transition: all linear 1s;
+   -webkit-transition: all linear 1s;
+   opacity: 0;
+}
+#cssSlider figure:target figcaption {
+   right: 0;
+   opacity: 1;
+}
+#sliderPagination {
+   position: absolute;
+   right: 10px;
+   bottom: 10px;
+   z-index: 10;
+}
+#sliderPagination a {
+   text-decoration: none;
+   background: rgba(255,255,255,0.5);
+   padding: 4px 8px;
+   color: #333;
+   border-radius: 20px;
+   transition: all linear 0.5s;
+   -o-transition: all linear 0.5s;
+   -moz-transition: all linear 0.5s;
+   -webkit-transition: all linear 0.5s;
+}
+#sliderPagination a:hover {
+   background: #fff;
+   color: #666;
+   width: auto;
+}
+
+
+#cssSlider1 {
+   width: 350px;
+   height: 622px;
+   overflow: hidden;
+   position: relative;
+   margin-top:30px;
+   margin: 0 auto;
+}
+#cssSlider1 figure {
+   width: 350px;
+   height: 622px;
+   margin: 0;
+   position: absolute;
+   top: 0;
+   left: -400px;
+   z-index: 1;
+   transition: all linear 0.5s;
+   -o-transition: all linear 0.5s;
+   -moz-transition: all linear 0.5s;
+   -webkit-transition: all linear 0.5s;
+}
+#cssSlider1 figure:target {
+   left: 0;
+}
+#cssSlider1 figure:first-child {
+   left: 0;
+}
+#cssSlider1 figure figcaption {
+   position: absolute;
+   bottom: 0;
+   right: 400px;
+   z-index: 2;
+   color: #fff;
+   padding: 10px 20px;
+   width: 310px;
+   background: #000;
+   transition: all linear 1s;
+   -o-transition: all linear 1s;
+   -moz-transition: all linear 1s;
+   -webkit-transition: all linear 1s;
+   opacity: 0;
+}
+#cssSlider1 figure:target figcaption {
+   right: 0;
+   opacity: 1;
+}
+#sliderPagination1 {
+   position: absolute;
+   right: 10px;
+   bottom: 10px;
+   z-index: 10;
+}
+#sliderPagination1 a {
+   text-decoration: none;
+   background: rgba(255,255,255,0.5);
+   padding: 4px 8px;
+   color: #333;
+   border-radius: 20px;
+   transition: all linear 0.5s;
+   -o-transition: all linear 0.5s;
+   -moz-transition: all linear 0.5s;
+   -webkit-transition: all linear 0.5s;
+}
+#sliderPagination1 a:hover {
+   background: #fff;
+   color: #666;
+   width: auto;
+}
+
+ul#contactinfo{width:200px; float:left; margin-top:70px;}
+	ul#contactinfo li{ width:170px; height:30px; float:left; list-style:none;font:normal 17px century; color:#666; margin-bottom:10px; text-align:left;}
+	ul#contactinfo li img{float:left; margin-left:20px;}
+	li#list1 span{ margin-left:21px;}
+	li#list2 span{ margin-left:10px;}
+	li#list3 span{ margin-left:20px;}
+	ul#contactinfo li:hover{ color:#B60C02;}
+</style>
+
+
+<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
+<script src="file:///Macintosh HD/Users/jihunlee0523/Desktop/Portfolio/ver2_web2/samplepage/js/jquery-1.10.2.min.js"></script>
+
+</head>
+
+<body>
+<div id="wrap">
+	<div id="topheader">
+		<div id="logo">
+    	<a href="index.html"><img src="logo_red-01 copy.png" /></a>
+        </div>    
+    </div>	
+<div id="bodywrap">
+    <div id="left">
+        <div id="portfolio">
+        <a href="samsung.html"><p class="leftnavitext">Portfolio</p></a>
+        </div>
+        <ul id="navi">
+			<a href="samsung.html"><li class="link1"><p class="navi">SAMSUNG </p></li></a>
+    		<a href="skplanet.html"><li class="link5"><p class="navibold">SK PLANET </p></li></a>
+           	<a href="benevolent.html"><li class="link2"><p class="navi">BENEVOLENT </p></li></a>
+    		<a href="mentorhip.html"><li class="link4"><p class="navi">MENTORHIP </p></li></a>    		
+    		<a href="bigframe.html"><li class="link3"><p class="navi">BIGFRAME </p></li></a>
+    		<a href="pandg.html"><li class="link6"><p class="navi">P&G </p></li></a>
+		</ul>
+        <div id="about">
+        <a href="about.html"><p class="leftnavitext">About me</p></a>
+        </div>
+        <ul id="contactinfo">
+			<a href="mailto:jihunlee0523@gmail.com"><li id="list1"><img src="email.png" /><span>E-mail me</span> </li></a>
+    		<a href="jihunlee_resume.pdf"><li id="list2"><img src="resume_sm.png" /><span>My resume</span></li></a>
+           	<a href="http://www.linkedin.com/pub/ji-hun-lee/32/bb9/ba2/"><li id="list3"><img src="linkedin_sm.png" /><span>My linked-in</span></li></a>
+   		</ul>
+	</div>
+	
+    <div id="right">		
+        <div id="moneypic">
+    		<img src="sk/moneyshot.png"/>
+    	</div>
+        <div id="description1">
+    		<p class="bigtitle"> 
+			SK Planet WASSUP DOG 
+            </p>
+            <p class="title">
+            Start-up Business Model Generation
+			</p>
+            <p class="white">
+        	WASSUP DOG is a mobile LBS crowdsourcing platform to support stray dogs in South Korea. WASSUP DOG utilizes LBS, allowing users to search dogs near them in order to increase the likelyhood of physical interaction and emotional connetion. Users can support their dogs by donating, visting & playing, and bragging (advertising) on SNS. Finally, when visiting dogs, by using NFC tagging, users can identify themselves and give notifications to animal hospital doctors who provide shelters for stray dogs 	
+          	</p>
+            <div id="demo">
+            <p> Final Concept Demo</p>
+            </div>
+            <iframe width="560" height="315" style="float:left; margin-left:110px; margin-bottom:30px;"src="//www.youtube.com/embed/-REdQIq_9JA" frameborder="0" allowfullscreen></iframe>
+            
+            <div id="summary">
+            <p> Main Concepts </p>
+            </div>
+            <div id="cssSlider">
+   			<figure id="image1">
+     		 	<img src="sk/phase1.png" alt="">
+      			<figcaption>LBS</figcaption>
+   			</figure>
+   			<figure id="image2">
+      			<img src="sk/phase2.png" alt="">
+      			<figcaption>Key features</figcaption>
+   			</figure>
+   			<figure id="image3">
+      			<img src="sk/phase3.png" alt="">
+      			<figcaption>NFC badge</figcaption>
+   			</figure>
+   			<div id="sliderPagination">
+      			<a href="#image1">1</a>
+      			<a href="#image2">2</a>
+      			<a href="#image3">3</a>
+   			</div>
+			</div>
+                
+
+            <div id="process">
+            <img src="sk/process.png" />
+            </div>
+        	<p class="smalltitle"> 
+			Design Process 
+            </p>
+            
+            <div id="p1">
+            <img src="sk/p1.png" />
+            <p class="blue">
+    		Contextual Interview
+   	    	</p>
+            </div>
+            
+            <p class="white">
+        	After conducting desk research, I led my team to go out and perform context
+             interview. This process not only helped gain insights in creating our concept,
+              but also motivated team members to fully commit to help stray dogs in Korea
+          	</p>
+            <div id="interview">
+            <img src="sk/interview.png" />
+            </div>
+        	
+            <div id="p2">
+            <img src="sk/p2.png" />
+            <p class="blue1">
+    		Design Direction & Ideation<br/>
+   	    	</p>
+            </div>
+            
+        	<p class="white">
+			With stories that we collected during interview process, I led my team 
+            a series of brainstorming sessions to collectively create a concept that
+            addresses painpoints and unmet needs of users         	
+            </p>
+            <div id="ideation">
+            <img src="sk/ideation.png" />
+            </div>
+
+            <div id="p3">
+            <img src="sk/p3.png" />
+            <p class="blue1">
+    		Prototype & Iteration<br/>
+   	    	</p>
+            </div>
+            
+        	<p class="white">
+        	During the project, I was in charge of creating a complete scenario of the WASSUP DOG App. I also participated in final GUI production process as well. 
+        	</p>
+            <div id="wireframe">
+            <img src="sk/wireframe.png" />
+            </div>
+            
+            <div id="gui">
+            <p> Final GUI </p>
+            </div>
+            
+			<div id="cssSlider1">
+   			<figure id="image11">
+     		 	<img src="sk/1.png" alt="">
+      			<figcaption>Start Page</figcaption>
+   			</figure>
+   			<figure id="image21">
+      			<img src="sk/2.png" alt="">
+      			<figcaption>Searching</figcaption>
+   			</figure>
+   			<figure id="image31">
+      			<img src="sk/3.png" alt="">
+      			<figcaption>My profile</figcaption>
+   			</figure>
+   			<figure id="image41">
+      			<img src="sk/4.png" alt="">
+      			<figcaption>"Brag my dog" page</figcaption>
+   			</figure>
+
+   			<div id="sliderPagination1">
+      			<a href="#image11">1</a>
+      			<a href="#image21">2</a>
+      			<a href="#image31">3</a>
+      			<a href="#image41">4</a>
+   			</div>
+			</div>
+	</div>
+
+ </div>       
+	            
+	<div id="footer">
+	<p class="footnote">
+    Copyright(c) by Ji hun Lee, ALL RIGHTS RESERVED.
+	</p>
+    </div>
+    </div>
+	
+</div>
+
+
+</body>
+</html>

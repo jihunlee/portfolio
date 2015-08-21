@@ -1,0 +1,354 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ko" xml:lang="ko">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="검색될키워드입력" />
+
+<!--[if lt IE 9]>
+<script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE9.js"></script>
+<![endif]-->
+
+<title>Ji hun Lee's Portfolio</title>
+
+<link href="file:///Macintosh HD/Users/jihunlee0523/Desktop/Portfolio/ver2_web2/samplepage/css/lightbox.css" rel="stylesheet" />
+
+
+<link href="css/lightbox.css" rel="stylesheet" />
+<link rel="shortcut icon" href="favicon.ico" >
+
+
+<style type="text/css">
+body{margin:0px; 
+background:#e8eaec;
+}
+@font-face{
+	font-family:century; src:url(TR%20Century%20Gothic.ttf);}
+ul,li{padding:0px; margin:0px;}
+img{border:none}
+div#wrap{width:1000px; position:absolute; left:50%; top:0px; margin-left:-500px; background:#fff;}
+div#topheader{width:1000px; Position:relative; background:url(header-01.jpg); height:150px;}
+	div#logo{width:80px; height:80px; position:relative; left:50%; margin-left:-48px; top:20px;}
+
+div#bodywrap{width:1000px; position:absolute; top:150px; background:#FFF; display:inline; padding-top:10px;}
+div#left{width:200px; float:left;}
+	div#portfolio{width:190px; height:35px; float:left; background:#B60C02;}
+	div#portfolio:hover{background:#999;}
+	ul#navi{width:200px; float:left;}
+	ul#navi li{width:170px; height:40px; float:left; list-style:none;}
+	li.link1{width:170px; height:40px; float:left; }
+	li.link2{width:170px; height:40px; float:left; }
+	li.link3{width:170px; height:40px; float:left; }
+	li.link4{width:170px; height:40px; float:left; }
+	li.link5{width:170px; height:40px; float:left; }
+	li.link6{width:170px; height:40px; float:left; }
+	div#about{width:190px; height:35px; float:left; background:#B60C02;}
+	div#about:hover{background:#999;}
+	p.leftnavitext{font:normal 20px/0px century; color:#fff; text-align:right;float:left;width:160px; margin-top:17px;}	
+	p.navi {font:normal 15px/5px century; color:#666; opacity:0.4; text-align:right;}	
+	p.navi:hover {opacity: 1;filter: alpha(opacity=100);}
+	p.navibold {font:bold 15px/5px century;color:#B60C02; opacity:1;text-align:right;}	
+	p.footnote{width:100%;font:normal 13px century; color:#FFF; opacity:0.8; text-align:center; padding-top:10px; }
+
+div#right{width:800px; float:left; height:800px; overflow-y: scroll; overflow-x: hidden;position:relative;}	
+	div#moneypic{width:800px; height:350px; float:left;}
+	div#discription1{width:200px; float:left; }
+	p.bigtitle{font:normal 35px/0px century; color:#B60C02;text-align:center; width:800px; float:left;}
+	p.toptitle{font:normal 15px/0px century; color:#ccc; text-align:center; width:800px;float:left;}
+	p.bigtitle{font:normal 35px/0px century; color:#B60C02;text-align:center; width:100%; float:left;}
+	p.title{font:normal 15px/0px century; color:#B60C02; text-align:center; width:100%;float:left; height:12px;}
+	p.smalltitle{font:normal 25px/25px century; color:#B60C02;text-align:center; width:800px; float:left;}
+	p.blue{font:normal 20px/0px century; color:#B60C02; text-align:left; padding-left:20px; padding-top:5px;float:left;}
+	p.white{font:normal 13px/14px century; color:#999; width:750px;text-align:justify;float:left;}
+	
+	div#p3{width:800px; height:50px; float:left;}
+	div#p3 img{width:50px; height:50px; float:left; margin-left:10px; opacity:0.9;}
+	div#footer{width:100%; height:70px; background:#333;float:left;}
+	
+	div#summary{width:720px; font:normal 20px/0px century; color:#333; padding-left:30px; text-align:center; float:left; margin-bottom:10px;}
+
+#cssSlider {
+   width: 600px;
+   height: 408px;
+   overflow: hidden;
+   position: relative;
+   margin-top:30px;
+   margin: 0 auto;
+   margin-bottom:50px;
+   border:solid 1px #999;
+}
+#cssSlider figure {
+   width: 600px;
+   height: 408px;
+   margin: 0;
+   position: absolute;
+   top: 0;
+   left: -600px;
+   z-index: 1;
+   transition: all linear 0.5s;
+   -o-transition: all linear 0.5s;
+   -moz-transition: all linear 0.5s;
+   -webkit-transition: all linear 0.5s;
+}
+#cssSlider figure:target {
+   left: 0;
+}
+#cssSlider figure:first-child {
+   left: 0;
+}
+#cssSlider figure figcaption {
+   position: absolute;
+   bottom: 0;
+   right: 600px;
+   z-index: 2;
+   color: #fff;
+   padding: 10px 20px;
+   width: 570px;
+   background: #000;
+   transition: all linear 1s;
+   -o-transition: all linear 1s;
+   -moz-transition: all linear 1s;
+   -webkit-transition: all linear 1s;
+   opacity: 0;
+}
+#cssSlider figure:target figcaption {
+   right: 0;
+   opacity: 1;
+}
+#sliderPagination {
+   position: absolute;
+   right: 10px;
+   bottom: 10px;
+   z-index: 10;
+}
+#sliderPagination a {
+   text-decoration: none;
+   background: rgba(255,255,255,0.5);
+   padding: 4px 8px;
+   color: #333;
+   border-radius: 20px;
+   transition: all linear 0.5s;
+   -o-transition: all linear 0.5s;
+   -moz-transition: all linear 0.5s;
+   -webkit-transition: all linear 0.5s;
+}
+#sliderPagination a:hover {
+   background: #fff;
+   color: #666;
+   width: auto;
+}	
+	
+#cssSlider1 {
+   width: 600px;
+   height: 380px;
+   overflow: hidden;
+   position: relative;
+   margin-top:30px;
+   margin: 0 auto;
+   margin-bottom:50px;
+   border:solid 1px #999;
+}
+#cssSlider1 figure {
+   width: 600px;
+   height: 380px;
+   margin: 0;
+   position: absolute;
+   top: 0;
+   left: -600px;
+   z-index: 1;
+   transition: all linear 0.5s;
+   -o-transition: all linear 0.5s;
+   -moz-transition: all linear 0.5s;
+   -webkit-transition: all linear 0.5s;
+}
+#cssSlider1 figure:target {
+   left: 0;
+}
+#cssSlider1 figure:first-child {
+   left: 0;
+}
+#cssSlider1 figure figcaption {
+   position: absolute;
+   bottom: 0;
+   right: 600px;
+   z-index: 2;
+   color: #fff;
+   padding: 10px 20px;
+   width: 570px;
+   background: #000;
+   transition: all linear 1s;
+   -o-transition: all linear 1s;
+   -moz-transition: all linear 1s;
+   -webkit-transition: all linear 1s;
+   opacity: 0;
+}
+#cssSlider1 figure:target figcaption {
+   right: 0;
+   opacity: 1;
+}
+#sliderPagination1 {
+   position: absolute;
+   right: 10px;
+   bottom: 10px;
+   z-index: 10;
+}
+#sliderPagination1 a {
+   text-decoration: none;
+   background: rgba(255,255,255,0.5);
+   padding: 4px 8px;
+   color: #333;
+   border-radius: 20px;
+   transition: all linear 0.5s;
+   -o-transition: all linear 0.5s;
+   -moz-transition: all linear 0.5s;
+   -webkit-transition: all linear 0.5s;
+}
+#sliderPagination1 a:hover {
+   background: #fff;
+   color: #666;
+   width: auto;
+}	
+
+ul#contactinfo{width:200px; float:left; margin-top:70px;}
+	ul#contactinfo li{ width:170px; height:30px; float:left; list-style:none;font:normal 17px century; color:#666; margin-bottom:10px; text-align:left;}
+	ul#contactinfo li img{float:left; margin-left:20px;}
+	li#list1 span{ margin-left:21px;}
+	li#list2 span{ margin-left:10px;}
+	li#list3 span{ margin-left:20px;}
+	ul#contactinfo li:hover{ color:#B60C02;}
+	
+</style>
+
+
+<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
+<script src="file:///Macintosh HD/Users/jihunlee0523/Desktop/Portfolio/ver2_web2/samplepage/js/jquery-1.10.2.min.js"></script>
+
+</head>
+
+<body>
+<div id="wrap">
+	<div id="topheader">
+		<div id="logo">
+    	<a href="index.html"><img src="logo_red-01 copy.png" /></a>
+        </div>    
+    </div>	
+<div id="bodywrap">
+    <div id="left">
+        <div id="portfolio">
+        <a href="samsung.html"><p class="leftnavitext">Portfolio</p></a>
+        </div>
+        <ul id="navi">
+			<a href="samsung.html"><li class="link1"><p class="navi">SAMSUNG </p></li></a>
+    		<a href="skplanet.html"><li class="link5"><p class="navi">SK PLANET </p></li></a>
+           	<a href="benevolent.html"><li class="link2"><p class="navi">BENEVOLENT </p></li></a>
+    		<a href="mentorhip.html"><li class="link4"><p class="navibold">MENTORHIP </p></li></a>    		
+    		<a href="bigframe.html"><li class="link3"><p class="navi">BIGFRAME </p></li></a>
+    		<a href="pandg.html"><li class="link6"><p class="navi">P&G </p></li></a>
+		</ul>
+        <div id="about">
+        <a href="about.html"><p class="leftnavitext">About me</p></a>
+        </div>
+        <ul id="contactinfo">
+			<a href="mailto:jihunlee0523@gmail.com"><li id="list1"><img src="email.png" /><span>E-mail me</span> </li></a>
+    		<a href="jihunlee_resume.pdf"><li id="list2"><img src="resume_sm.png" /><span>My resume</span></li></a>
+           	<a href="http://www.linkedin.com/pub/ji-hun-lee/32/bb9/ba2/"><li id="list3"><img src="linkedin_sm.png" /><span>My linked-in</span></li></a>
+   		</ul>
+	</div>
+
+	<div id="right">			
+        <div id="moneypic">
+    		<img src="mentorhip/moneyshot.png"/>
+    	</div>
+            <div id="description1">
+    		<p class="bigtitle"> 
+			MentorHip
+            </p>
+            <p class="toptitle">
+            Platform Design Project
+			</p>
+
+            <p class="white">
+            <br/>MentorHip is an e-commerce platform where young children (age 5 ~ 12) are matched with local service providers. We created next version of Mentorhip with core idea of deconstruction as well as features like 'Heros' to provide more user centerd experience. We also evaluated our concept with innovation tactics from Doblin <br/><br/>
+          	</p>
+            
+            
+            
+             <div id="summary">
+            <p> Platform Overview </p>
+            </div>
+            <div id="cssSlider">
+   			<figure id="image1">
+     		 	<img src="mentorhip/poster1.png" alt="">
+      			<figcaption>Journey Map</figcaption>
+   			</figure>
+   			<figure id="image2">
+      			<img src="mentorhip/poster2.png" alt="">
+      			<figcaption>How it Works</figcaption>
+   			</figure>
+   			<figure id="image3">
+      			<img src="mentorhip/poster3.png" alt="">
+      			<figcaption>Business Stages</figcaption>
+   			</figure>
+   			<div id="sliderPagination">
+      			<a href="#image1">1</a>
+      			<a href="#image2">2</a>
+      			<a href="#image3">3</a>
+   			</div>
+			</div>
+
+            <div id="p3">
+            <img src="mentorhip/interface.png" />
+            <p class="blue">
+    		Interface Mockup
+            </p>
+            </div>
+
+            <p class="white">
+        	We created interface mockups that demonstrate our key features to help audience better understand our idea during final poster fair<br/><br/><br/>  	
+          	</p>
+            
+           <div id="cssSlider1">
+   			<figure id="image11">
+     		 	<img src="mentorhip/interface1.png" alt="">
+      			<figcaption>Start Page</figcaption>
+   			</figure>
+   			<figure id="image21">
+      			<img src="mentorhip/interface2.png" alt="">
+      			<figcaption>Learning Deconstruction</figcaption>
+   			</figure>
+   			<figure id="image31">
+      			<img src="mentorhip/interface3.png" alt="">
+      			<figcaption>Learning Deconstruction</figcaption>
+   			</figure>
+            <figure id="image41">
+      			<img src="mentorhip/interface4.png" alt="">
+      			<figcaption>Hero Page</figcaption>
+   			</figure>
+            <figure id="image51">
+      			<img src="mentorhip/interface5.png" alt="">
+      			<figcaption>Market Place</figcaption>
+   			</figure>
+   			<div id="sliderPagination1">
+      			<a href="#image11">1</a>
+      			<a href="#image21">2</a>
+      			<a href="#image31">3</a>
+				<a href="#image41">4</a>
+				<a href="#image51">5</a>
+   			</div>
+			</div>
+            
+		</div>	
+    </div>         
+	            
+	<div id="footer">
+	<p class="footnote">
+    Copyright(c) by Ji hun Lee, ALL RIGHTS RESERVED.
+	</p>
+    </div>
+    	</div>
+	</div>
+</div>
+
+
+</body>
+</html>

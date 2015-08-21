@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1000px"
+	 height="250px" viewBox="0 0 1000 250" enable-background="new 0 0 1000 250" xml:space="preserve">
+<g id="Layer_1">
+	<g>
+		<defs>
+			<rect id="SVGID_1_" width="998.763" height="250"/>
+		</defs>
+		<clipPath id="SVGID_2_">
+			<use xlink:href="#SVGID_1_"  overflow="visible"/>
+		</clipPath>
+		
+			<rect x="-77.904" y="-70.849" transform="matrix(0.8606 0.5093 -0.5093 0.8606 57.6936 18.0261)" clip-path="url(#SVGID_2_)" fill="#B60C02" width="147.652" height="370.48"/>
+		
+			<rect x="913.707" y="-110.659" transform="matrix(-0.8516 0.5242 -0.5242 -0.8516 1900.616 -364.366)" clip-path="url(#SVGID_2_)" fill="#B60C02" width="176.359" height="395.04"/>
+		<circle clip-path="url(#SVGID_2_)" fill="#B60C02" cx="940.146" cy="93.303" r="108.253"/>
+	</g>
+	<text transform="matrix(1 0 0 1 440 216)" fill="#B60C02" font-family="'CenturyGothic'" font-size="21">JI HUN LEE</text>
+</g>
+<g id="logo">
+	<g>
+		<polygon fill="#B60C02" points="511,16 514.204,16 556,128.219 556,160.444 552.989,160.268 511,142.306 		"/>
+		<polygon fill="#B60C02" points="506.871,16 509,16 509,142.306 410.957,185 409.375,185 		"/>
+		<g>
+			<polygon fill="#FFFFFF" points="509,141.92 509,15.879 509,15.719 508.627,15.86 411.463,184.18 			"/>
+		</g>
+		<g>
+			<polygon fill="#FFFFFF" points="511,15.719 511,141.92 553,159.882 553,128.411 			"/>
+		</g>
+		<circle fill="#B60C02" cx="546.43" cy="75.346" r="33.384"/>
+		<path fill="#FFFFFF" d="M582.515,73.802c0,18.437-14.945,33.382-33.384,33.382c-18.437,0-33.383-14.945-33.383-33.382
+			c0-20.648,14.946-31.455,33.383-31.455C567.569,42.348,582.515,55.365,582.515,73.802z"/>
+		<polygon fill="#FFFFFF" points="523.214,39.953 551.801,116.378 582,114.808 582,38.103 		"/>
+	</g>
+</g>
+</svg>

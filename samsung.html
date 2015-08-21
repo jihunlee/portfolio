@@ -1,0 +1,600 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ko" xml:lang="ko">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="검색될키워드입력" />
+
+<!--[if lt IE 9]>
+<script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE9.js"></script>
+<![endif]-->
+
+<title>Ji hun Lee's Portfolio</title>
+
+<link rel="shortcut icon" href="favicon.ico" >
+
+
+<style type="text/css">
+body{margin:0px; 
+background:#e8eaec;
+}
+@font-face{
+	font-family:century; src:url(TR%20Century%20Gothic.ttf);}
+ul,li{padding:0px; margin:0px;}
+img{border:none}
+
+div#wrap{width:1000px; position:absolute; left:50%; top:0px; margin-left:-500px; background:#fff;}
+div#topheader{width:1000px; Position:relative; background:url(header-01.jpg); height:150px;}
+	div#logo{width:80px; height:80px; position:relative; left:50%; margin-left:-48px; top:20px;}
+
+div#bodywrap{width:1000px; position:absolute; top:150px; background:#FFF; display:inline; padding-top:10px;}
+div#left{width:200px; float:left;}
+	div#portfolio{width:190px; height:35px; float:left; background:#B60C02;}
+	div#portfolio:hover{background:#999;}
+	ul#navi{width:200px; float:left;}
+	ul#navi li{width:170px; height:40px; float:left; list-style:none;}
+	li.link1{width:170px; height:40px; float:left; }
+	li.link2{width:170px; height:40px; float:left; }
+	li.link3{width:170px; height:40px; float:left; }
+	li.link4{width:170px; height:40px; float:left; }
+	li.link5{width:170px; height:40px; float:left; }
+	li.link6{width:170px; height:40px; float:left; }
+	div#about{width:190px; height:35px; float:left; background:#B60C02;}
+	div#about:hover{background:#999;}
+	p.leftnavitext{font:normal 20px/0px century; color:#fff; text-align:right;float:left;width:160px; margin-top:17px;}	
+	p.navi {font:normal 15px/5px century; color:#666; opacity:0.4; text-align:right;}	
+	p.navi:hover {opacity: 1;filter: alpha(opacity=100);}
+	p.navibold {font:bold 15px/5px century;color:#B60C02; opacity:1;text-align:right;}	
+	p.footnote{width:100%;font:normal 13px century; color:#FFF; opacity:0.8; text-align:center; padding-top:10px; }
+
+
+div#right{width:790px; float:left; height:800px; overflow-y: scroll; overflow-x: hidden; position:relative;}
+	div#moneypic{width:790px; height:350px; position:relative; z-index:9999}
+	div#discription1{width:200px; float:left; }
+	p.bigtitle{font:normal 35px/0px century; color:#B60C02;text-align:center; width:100%; float:left;}
+	p.title{font:normal 15px/0px century; color:#B60C02; text-align:center; width:100%;float:left; height:12px;}
+	p.smalltitle{font:normal 25px/25px century; color:#B60C02;text-align:center; width:100%; float:left;}
+	p.blue{font:normal 20px/0px century; color:#B60C02; text-align:left; padding-left:20px; padding-top:5px;float:left;}
+	p.white{font:normal 13px/14px century; color:#999; width:750px;text-align:justify;float:left;}	
+	div#process{width:500px; height:150px; float:left;margin-left:150px; margin-right:150px; margin-top:70px;}
+	div#p1{width:790px; height:46px; float:left; margin-left:10px;}
+	div#p1 img{width:50px; height:46px; float:left;}
+	div#sam_interview{width:720px; height:200px; margin-left:20px;margin-top:10px;float:left; }
+	div#p2{width:790px; height:50px; float:left; margin-left:10px; margin-top:50px;}
+	div#p2 img{width:134px; height:50px; float:left;}
+	div#ideation{width:720px; height:210px; margin-left:20px;float:left; margin-bottom:60px; margin-top:30px;border-radius:10px ; overflow:hidden; }	
+	div#prototypes{width:720px; float:left; margin-bottom:20px; margin-top:30px;}
+	div#prototypes p{width:310px; float:left; margin-left:50px; font:normal 17px/0px century; color:#333; text-align:center;}	
+	div#p3{width:790px; height:100px; float:left; margin-left:10px; margin-top:50px;}
+	div#p3 img{width:130px; height:100px; float:left;}
+	p#blue1{font:normal 20px/0px century; color:#B60C02; text-align:left; padding-left:20px; padding-top:30px;float:left;}
+	div#reaction{width:662px; height:270px; margin-left:68px; margin-top:50px;float:left;margin-bottom:50px;}
+	div#low{width:720px; height:250px; margin-left:40px; margin-top:10px;float:left;margin-bottom:60px;}
+	div#high{width:720px; height:250px; margin-left:40px; margin-top:10px;float:left;margin-bottom:60px;}
+	div#demo{width:720px; height:350px; margin-left:40px; float:left;}
+	
+	div#footer{width:100%; height:70px; background:#333; margin-top:20px;float:left;}
+	
+
+#cssSlider {
+   width: 600px;
+   height: 417px;
+   overflow: hidden;
+   position: relative;
+   margin-top:50px;
+   margin: 0 auto;
+   border:solid 1px #999;
+}
+#cssSlider figure {
+   width: 600px;
+   height: 417px;
+   margin: 0;
+   position: absolute;
+   top: 0;
+   left: -600px;
+   z-index: 1;
+   transition: all linear 0.5s;
+   -o-transition: all linear 0.5s;
+   -moz-transition: all linear 0.5s;
+   -webkit-transition: all linear 0.5s;
+}
+#cssSlider figure:target {
+   left: 0;
+}
+#cssSlider figure:first-child {
+   left: 0;
+}
+#cssSlider figure figcaption {
+   position: absolute;
+   bottom: 0;
+   right: 600px;
+   z-index: 2;
+   color: #fff;
+   padding: 10px 20px;
+   width: 570px;
+   background: #000;
+   transition: all linear 1s;
+   -o-transition: all linear 1s;
+   -moz-transition: all linear 1s;
+   -webkit-transition: all linear 1s;
+   opacity: 0;
+}
+#cssSlider figure:target figcaption {
+   right: 0;
+   opacity: 1;
+}
+#sliderPagination {
+   position: absolute;
+   right: 10px;
+   bottom: 10px;
+   z-index: 10;
+}
+#sliderPagination a {
+   text-decoration: none;
+   background: rgba(255,255,255,0.5);
+   padding: 4px 8px;
+   color: #333;
+   border-radius: 20px;
+   transition: all linear 0.5s;
+   -o-transition: all linear 0.5s;
+   -moz-transition: all linear 0.5s;
+   -webkit-transition: all linear 0.5s;
+}
+#sliderPagination a:hover {
+   background: #fff;
+   color: #666;
+   width: auto;
+}
+
+#cssSlider1 {
+   width: 600px;
+   height: 447px;
+   overflow: hidden;
+   position: relative;
+   margin: 0 auto;
+   border:solid 1px #999;
+}
+#cssSlider1 figure {
+   width: 600px;
+   height: 447px;
+   margin: 0;
+   position: absolute;
+   top: 0;
+   left: -600px;
+   z-index: 1;
+   transition: all linear 0.5s;
+   -o-transition: all linear 0.5s;
+   -moz-transition: all linear 0.5s;
+   -webkit-transition: all linear 0.5s;
+}
+#cssSlider1 figure:target {
+   left: 0;
+}
+#cssSlider1 figure:first-child {
+   left: 0;
+}
+#cssSlider1 figure figcaption {
+   position: absolute;
+   bottom: 0;
+   right: 600px;
+   z-index: 2;
+   color: #fff;
+   padding: 10px 20px;
+   width: 570px;
+   background: #000;
+   transition: all linear 1s;
+   -o-transition: all linear 1s;
+   -moz-transition: all linear 1s;
+   -webkit-transition: all linear 1s;
+   opacity: 0;
+}
+#cssSlider1 figure:target figcaption {
+   right: 0;
+   opacity: 1;
+}
+#sliderPagination1 {
+   position: absolute;
+   right: 10px;
+   bottom: 10px;
+   z-index: 10;
+}
+#sliderPagination1 a {
+   text-decoration: none;
+   background: rgba(255,255,255,0.5);
+   padding: 4px 8px;
+   color: #333;
+   border-radius: 20px;
+   transition: all linear 0.5s;
+   -o-transition: all linear 0.5s;
+   -moz-transition: all linear 0.5s;
+   -webkit-transition: all linear 0.5s;
+}
+#sliderPagination1 a:hover {
+   background: #fff;
+   color: #666;
+   width: auto;
+}
+
+#cssSlider2 {
+   width: 330px;
+   height: 495px;
+   overflow: hidden;
+   position: relative;
+   margin-left:55px;
+   float:left;
+}
+#cssSlider2 figure {
+   width: 330px;
+   height: 495px;
+   margin: 0;
+   position: absolute;
+   top: 0;
+   left: -350px;
+   z-index: 1;
+   transition: all linear 0.5s;
+   -o-transition: all linear 0.5s;
+   -moz-transition: all linear 0.5s;
+   -webkit-transition: all linear 0.5s;
+}
+#cssSlider2 figure:target {
+   left: 0;
+}
+#cssSlider2 figure:first-child {
+   left: 0;
+}
+#cssSlider2 figure figcaption {
+   position: absolute;
+   bottom: 0;
+   right: 330px;
+   z-index: 2;
+   color: #fff;
+   padding: 10px 20px;
+   width: 300px;
+   background: #000;
+   transition: all linear 1s;
+   -o-transition: all linear 1s;
+   -moz-transition: all linear 1s;
+   -webkit-transition: all linear 1s;
+   opacity: 0;
+}
+#cssSlider2 figure:target figcaption {
+   right: 0;
+   opacity: 1;
+}
+#sliderPagination2 {
+   position: absolute;
+   right: 10px;
+   bottom: 10px;
+   z-index: 10;
+}
+#sliderPagination2 a {
+   text-decoration: none;
+   background: rgba(255,255,255,0.5);
+   padding: 4px 8px;
+   color: #333;
+   border-radius: 20px;
+   transition: all linear 0.5s;
+   -o-transition: all linear 0.5s;
+   -moz-transition: all linear 0.5s;
+   -webkit-transition: all linear 0.5s;
+}
+#sliderPagination2 a:hover {
+   background: #fff;
+   color: #666;
+   width: auto;
+}
+
+#cssSlider3 {
+   width: 330px;
+   height: 495px;
+   overflow: hidden;
+   position: relative;
+   margin-left:30px;
+   float:left;
+}
+#cssSlider3 figure {
+   width: 330px;
+   height: 495px;
+   margin: 0;
+   position: absolute;
+   top: 0;
+   left: -350px;
+   z-index: 1;
+   transition: all linear 0.5s;
+   -o-transition: all linear 0.5s;
+   -moz-transition: all linear 0.5s;
+   -webkit-transition: all linear 0.5s;
+}
+#cssSlider3 figure:target {
+   left: 0;
+}
+#cssSlider3 figure:first-child {
+   left: 0;
+}
+#cssSlider3 figure figcaption {
+   position: absolute;
+   bottom: 0;
+   right: 330px;
+   z-index: 2;
+   color: #fff;
+   padding: 10px 20px;
+   width: 300px;
+   background: #000;
+   transition: all linear 1s;
+   -o-transition: all linear 1s;
+   -moz-transition: all linear 1s;
+   -webkit-transition: all linear 1s;
+   opacity: 0;
+}
+#cssSlider3 figure:target figcaption {
+   right: 0;
+   opacity: 1;
+}
+#sliderPagination3 {
+   position: absolute;
+   right: 10px;
+   bottom: 10px;
+   z-index: 10;
+}
+#sliderPagination3 a {
+   text-decoration: none;
+   background: rgba(255,255,255,0.5);
+   padding: 4px 8px;
+   color: #333;
+   border-radius: 20px;
+   transition: all linear 0.5s;
+   -o-transition: all linear 0.5s;
+   -moz-transition: all linear 0.5s;
+   -webkit-transition: all linear 0.5s;
+}
+#sliderPagination3 a:hover {
+   background: #fff;
+   color: #666;
+   width: auto;
+}
+
+ul#contactinfo{width:200px; float:left; margin-top:70px;}
+	ul#contactinfo li{ width:170px; height:30px; float:left; list-style:none;font:normal 17px century; color:#666; margin-bottom:10px; text-align:left;}
+	ul#contactinfo li img{float:left; margin-left:20px;}
+	li#list1 span{ margin-left:21px;}
+	li#list2 span{ margin-left:10px;}
+	li#list3 span{ margin-left:20px;}
+	ul#contactinfo li:hover{ color:#B60C02;}
+</style>
+
+<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
+
+</head>
+
+<body>
+
+<div id="wrap">
+	<div id="topheader">
+		<div id="logo">
+    	<a href="index.html"><img src="logo_red-01 copy.png" /></a>
+        </div>    
+    </div>	
+<div id="bodywrap">
+    <div id="left">
+        <div id="portfolio">
+        <a href="samsung.html"><p class="leftnavitext">Portfolio</p></a>
+        </div>
+        <ul id="navi">
+			<a href="samsung.html"><li class="link1"><p class="navibold">SAMSUNG </p></li></a>
+    		<a href="skplanet.html"><li class="link5"><p class="navi">SK PLANET </p></li></a>
+           	<a href="benevolent.html"><li class="link2"><p class="navi">BENEVOLENT </p></li></a>
+    		<a href="mentorhip.html"><li class="link4"><p class="navi">MENTORHIP </p></li></a>    		
+    		<a href="bigframe.html"><li class="link3"><p class="navi">BIGFRAME </p></li></a>
+    		<a href="pandg.html"><li class="link6"><p class="navi">P&G </p></li></a>
+		</ul>
+        <div id="about">
+        <a href="about.html"><p class="leftnavitext">About me</p></a>
+        </div>
+        <ul id="contactinfo">
+			<a href="mailto:jihunlee0523@gmail.com"><li id="list1"><img src="email.png" /><span>E-mail me</span> </li></a>
+    		<a href="jihunlee_resume.pdf"><li id="list2"><img src="resume_sm.png" /><span>My resume</span></li></a>
+           	<a href="http://www.linkedin.com/pub/ji-hun-lee/32/bb9/ba2/"><li id="list3"><img src="linkedin_sm.png" /><span>My linked-in</span></li></a>
+   		</ul>
+	</div>
+	
+ <div id="right">   
+        <div id="moneypic">
+    		<a href="start"><img src="samsung/moneyshot.png"/></a>
+    	</div>
+        <div id="description1">
+    		<p class="bigtitle"> 
+			Samsung Happy Bank 
+            </p>
+            <p class="title">
+            Interaction design project
+			</p>
+            <p class="white">
+        	Happy Bank is a platform that allows users to travel through their happy experiences and later share them with others. This was a solution to Samsung mobile's proposal to design a future interaction with mobile devices. Happy Bank help users capture, organize, and share their memorable contents on their smart phone device.  
+          	</p>
+           
+          <div id="cssSlider">
+   			<figure id="image1">
+     		 	<img src="samsung/capture.png" alt="">
+      			<figcaption>Capture</figcaption>
+   			</figure>
+   			<figure id="image2">
+      			<img src="samsung/organize1.png" alt="">
+      			<figcaption>Content Management</figcaption>
+   			</figure>
+   			<figure id="image3">
+      			<img src="samsung/organize2.png" alt="">
+      			<figcaption>Content Management</figcaption>
+   			</figure>
+   			<figure id="image4">
+      			<img src="samsung/share.png" alt="">
+      			<figcaption>Share</figcaption>
+   			</figure>
+   			<div id="sliderPagination">
+      			<a href="#image1">1</a>
+      			<a href="#image2">2</a>
+      			<a href="#image3">3</a>
+      			<a href="#image4">4</a>
+   			</div>
+		</div>
+      
+            <div id="process">
+            <img src="samsung/process.jpg" />
+            </div>       
+        	<p class="smalltitle"> 
+			Design Process 
+            </p>
+            
+			<div id="p1">
+            <img src="samsung/p1.png" />
+            <p class="blue">
+    		Contextual Interview
+   	    	</p>
+            </div>        
+          
+            <p class="white">
+        	With "Happiness and Entertainment" being our constraints for the project, we conducted a series of contextual interviews to understand what those topics meant for them. We created an interview guide that let us carefully probe what users perceive "Happiness and Entertainment" without we having to ask any direct questions. 
+          	</p>
+            <div id="sam_interview">
+            <img src="samsung/interviews.png" />
+            </div>
+        	
+			<div id="p2">
+            <img src="samsung/p2.png" />
+            <p class="blue">
+    		Design Direction & Ideation<br/>
+   	    	</p>
+            </div>        
+
+            
+        	<p class="white">
+            After collecting stories from users, the team created an overarching design direction with highest resonance. Our design direction was 'How might we provide users with relevant content, smart organization, and frictionless sharing?' We brainstormed ideas on multiple rounds and also created storyboards that we thought had potential. As I was in charge of visual design, I drew all the storyboards as well as detailed scketches during this stage.
+        	</p>
+            <div id="ideation">
+            <img src="samsung/ideation.png" />
+            </div>
+            
+            <div id="cssSlider1">
+   			<figure id="image11">
+     		 	<img src="samsung/capturemoment.png" alt="">
+      			<figcaption>Capture the Moment</figcaption>
+   			</figure>
+   			<figure id="image21">
+      			<img src="samsung/happybank.png" alt="">
+      			<figcaption>Happy Bank</figcaption>
+   			</figure>
+   			<figure id="image31">
+      			<img src="samsung/snapbracelet.png" alt="">
+      			<figcaption>Snap Bracelet</figcaption>
+   			</figure>
+   			<figure id="image41">
+      			<img src="samsung/potluck.png" alt="">
+      			<figcaption>Digital Potluck</figcaption>
+   			</figure>
+   			<div id="sliderPagination1">
+      			<a href="#image11">1</a>
+      			<a href="#image21">2</a>
+      			<a href="#image31">3</a>
+      			<a href="#image41">4</a>
+   			</div>
+		</div>
+			
+			<div id="p3">
+            <img src="samsung/p3.png" />
+            <p id="blue1">
+    		Prototype & Iteration<br/>
+   	    	</p>
+            </div>        
+            
+        	<p class="white">
+        	As finalized our concept, we conducted an experiment with software silverback to validate our hypothesis of using smile as a trigger of the interaction. We then created rough sketches of wireframe and tested UI flow with users using POP. After iterations of POP exercises, we made higher fidelity UI wireframes. We also made a working prototype to demonstrate our capturing aspect of the concept with Processing.
+        	</p>
+            
+            <div id="prototypes">
+            	<p> Low fidelity(Paper) prototype</p>
+            	<p> High fidelity prototype</p>
+            </div>
+            
+			<div id="cssSlider2">
+   			<figure id="image12">
+     		 	<img src="samsung/l1.png" alt="">
+      			<figcaption>Low fidelity</figcaption>
+   			</figure>
+   			<figure id="image22">
+      			<img src="samsung/l2.png" alt="">
+      			<figcaption>Low fidelity</figcaption>
+   			</figure>
+   			<figure id="image32">
+      			<img src="samsung/l3.png" alt="">
+      			<figcaption>Low fidelity</figcaption>
+   			</figure>
+   			<figure id="image42">
+      			<img src="samsung/l4.png" alt="">
+      			<figcaption>Low fidelity</figcaption>
+   			</figure>
+            <figure id="image52">
+      			<img src="samsung/l5.png" alt="">
+      			<figcaption>Low fidelity</figcaption>
+   			</figure>
+            <figure id="image62">
+      			<img src="samsung/l6.png" alt="">
+      			<figcaption>Low fidelity</figcaption>
+   			</figure>
+   			<div id="sliderPagination2">
+      			<a href="#image12">1</a>
+      			<a href="#image22">2</a>
+      			<a href="#image32">3</a>
+      			<a href="#image42">4</a>
+                <a href="#image52">5</a>
+      			<a href="#image62">6</a>
+   			</div>
+		</div>
+        
+        <div id="cssSlider3">
+   			<figure id="image13">
+     		 	<img src="samsung/h1.png" alt="">
+      			<figcaption>High fidelity</figcaption>
+   			</figure>
+   			<figure id="image23">
+      			<img src="samsung/h2.png" alt="">
+      			<figcaption>High fidelity</figcaption>
+   			</figure>
+   			<figure id="image33">
+      			<img src="samsung/h3.png" alt="">
+      			<figcaption>High fidelity</figcaption>
+   			</figure>
+   			<figure id="image43">
+      			<img src="samsung/h4.png" alt="">
+      			<figcaption>High fidelity</figcaption>
+   			</figure>
+            <figure id="image53">
+      			<img src="samsung/h5.png" alt="">
+      			<figcaption>High fidelity</figcaption>
+   			</figure>
+   			<div id="sliderPagination3">
+      			<a href="#image13">1</a>
+      			<a href="#image23">2</a>
+      			<a href="#image33">3</a>
+      			<a href="#image43">4</a>
+                <a href="#image53">5</a>
+      		</div>
+		</div>
+        	
+            <div id="reaction">
+            <img src="samsung/Reaction.jpg" />
+            </div>
+            
+            <div id="demo">
+            <img src="samsung/demo.jpg" />
+            </div>
+      </div> 
+</div>     
+	<div id="footer">
+	<p class="footnote">
+    Copyright(c) by Ji hun Lee, ALL RIGHTS RESERVED.
+	</p>
+    </div>
+</div>
+</div>
+
+</body>
+</html>
